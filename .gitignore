@@ -129,7 +129,6 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
 .venv
 env/
 venv/
@@ -180,7 +179,7 @@ node_modules/
 
 .python-version
 
-.vscode 
 .cursor*
 .DS_Store
 package-lock.json
+config.bat
