@@ -34,9 +34,9 @@
     "zustand": "^5.0.1"
   },
   "scripts": {
-    "start": "vite",
-    "dev": "vite",
-    "build": "vite build",
+    "start": "node init && vite",
+    "dev": "node init && vite",
+    "build": "node init && vite build",
     "bundle:size": "node scripts/bundle-size-report.mjs",
     "lint": "eslint .",
     "preview": "vite preview",
